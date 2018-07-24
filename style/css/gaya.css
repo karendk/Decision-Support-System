@@ -1,0 +1,288 @@
+html{
+    font-family: verdana;
+    -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+}
+
+body{
+    margin-top: 50px;
+    margin-left: 0px;
+    margin-right:0px;
+    margin-bottom: 0px;
+    background-color:#f9f9f9;
+    overflow-x: scroll;
+    overflow-x:hidden;
+    /*background: url(media/background.jpg) repeat;*/
+}
+.uploadgambar{
+    width:100%;
+    height: 100%;
+    background: url(../../media/canvas.png);
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+}
+img{
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    /*border-radius: 7px;*/
+}
+img:hover{
+    /*border-radius: 10%;*/
+}
+p{
+font-size: 12pt;
+text-align: justify;
+}
+
+a{
+ /*merubah warna teks*/
+transition: all 0.3s linear;
+color:black;
+text-decoration:none; /*menghilangkan underline*/
+}
+
+a:hover{ /*jika link a di hover*/
+text-decoration:none;
+transition: all 0.1s linear;
+color:white;
+text-shadow:
+3px 0 2px grey,
+-3px 0 3px grey,
+0 2px 2px grey,
+0 -3px 2px grey,
+3px 3px 4px grey;
+}
+
+li{
+    transition: all 0.3s linear;
+}
+
+li:hover{
+    transition: all 0.1s linear;
+}
+
+button {
+    background-color: #FF6782;
+    border-color: none;
+    outline: 0px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+button:hover {
+    background-color: #CFA385;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+button:focus{
+    background-color: #795B54;
+}
+.over{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.grow:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-opacity: 0.8;
+    -moz-opacity: 0.8;
+    opacity: 0.8;
+}
+.lina{
+    transition: all 0.3s linear;
+}
+
+.lina:hover{
+    transition: all 0.1s linear;
+    background-color: #00E676;
+}
+.teks{
+transition: all 0.3s linear;
+}
+
+
+}
+.teks:hover{
+transition: all 0.1s linear;
+text-shadow:
+3px 0 2px #ACCE66,
+-3px 0 3px pink,
+0 2px 2px pink,
+0 -3px 2px #795B54,
+3px 3px 4px pink;
+}
+.tab{
+    transition: all 0.3s linear;
+}
+
+.tab:hover{
+    transition: all 0.1s linear;
+    background-color: white;
+}
+.pesan{
+    transition: all 0.3s linear;
+}
+
+.pesan:hover{
+    transition: all 0.1s linear;
+    background-color: #D9EDF7;
+}
+.aktif{
+    background-color: #ACCE77;
+}
+.password{
+    border:none;
+    background-color: transparent;
+}
+.profil{
+    transition: all 0.3s linear;
+}
+.profil:hover{
+    transition: all 0.1s linear;
+    background-color: #ACCE66;
+    opacity:0.7;
+
+}
+.tabelku{
+    overflow-y: scroll;
+    overflow-y:hidden;
+}
+.img-responsive{
+    width:100%;
+    height: 100%;
+    border-radius: 7px;
+}
+.tombol{
+    background-color: #00C853;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+.tombol:hover{
+    background-color: #00E676;
+    color: white;
+}
+.tombol:focus{
+    background-color: #69F0AE;
+}
+.ukuran{
+    width: 100%;
+    height: 700px;
+}
+.logo{
+    height:20px;
+    width:20px; 
+    position: fixed;
+}
+.adminkomen{
+    height:50px;
+    width:50px; 
+}
+.atas{
+    background-color: #00C853;
+    box-shadow: 0px 0px 3px 1px grey;
+    border:none;
+}
+.bawah{
+    font-size:8pt;
+    padding-top:30px;
+    padding-bottom:35px;
+    color:#616161;
+    bottom:0px;
+    background-color: #424242;
+    box-shadow: 0px -1px 1px 1px #c5c5c5;
+    border:none;
+}
+table#upil td{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+table#upil{
+    width: 600px;
+}
+.layar{
+    background-color: #efefef; 
+    margin-top: 0px;
+    overflow-x:visible;
+}
+.gbr-beranda{
+    height:100%;
+    width:100%; 
+    opacity: 0.1;
+    -webkit-transition-duration: 4s;
+    transition-duration: 4s;
+}
+.gbr-beranda:hover{
+    height:100%;
+    width:100%; 
+    opacity: 1;    
+    -webkit-transition-duration: 2s;
+    transition-duration: 2s;
+}
+.def:hover{
+    border-radius: 50%;
+}
+.abu{
+    background-color: #eeeeee;
+}
+.bayangan{
+    box-shadow: 0px 1px 3px 0px;
+}
+.putih{
+    background-color: white;
+}
+/* Scrollbar
+----------------------------------------------- */
+::-webkit-scrollbar {
+width:10px;
+}
+
+::-webkit-scrollbar-track {
+background:#dfdfdf;
+}
+
+::-webkit-scrollbar-thumb {
+background:#BDBDBD;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background:#9E9E9E;
+}
+
+::-webkit-scrollbar-thumb:active {
+background:#757575;
+
+/*-webkit-box-shadow:inset 1px 1px 10px #000000;*/
+}
+
+
+::selection {
+background:#ACCE33;
+color:white;
+}
+
+::-moz-selection {
+background:#ACCE33;
+color:white;
+}
+
+::-webkit-selection {
+background:#ACCE33;
+color:white;
+}
+
+@media screen and (min-width: 768px) {
+ .atas{
+    opacity:0.8;
+ }
+  .bawah{
+    font-size:11pt;
+ }
+}
