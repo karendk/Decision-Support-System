@@ -4,7 +4,7 @@ Selection of motorcycle based on DSS using fuzzy database method
 Web
 ### Requirement
 ```
-PPH 5
+PHP 5
 Mysql
 ```
 ### Installing
