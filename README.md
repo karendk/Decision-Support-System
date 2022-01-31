@@ -1,5 +1,6 @@
 # Decision-Support-System
-Selection of motorcycle based on DSS using fuzzy database method
+Selection of motorcycle based on DSS using fuzzy database method.
+Choose the criteria of the motorcyle that you want, you will have the suggestion of that. Happy Coding :)
 ## Platform
 Web
 ### Requirement
